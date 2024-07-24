@@ -35,13 +35,16 @@ ThemeData getApplicationTheme() {
 
     // elevated button them
     elevatedButtonTheme: ElevatedButtonThemeData(
-        style: ElevatedButton.styleFrom(
-            textStyle: getRegularStyle(
-                color: ColorManager.white, fontSize: FontSize.s17),
-            // primary: ColorManager.primary,
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(AppSize.s12)))),
-
+      style: ElevatedButton.styleFrom(
+        textStyle:
+            getRegularStyle(color: ColorManager.white, fontSize: FontSize.s17),
+        backgroundColor: ColorManager.primary,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(AppSize.s12),
+        ),
+      ),
+    ),
+    // text theme
     textTheme: TextTheme(
         displayLarge: getSemiBoldStyle(
             color: ColorManager.darkGrey, fontSize: FontSize.s16),
@@ -73,15 +76,20 @@ ThemeData getApplicationTheme() {
 
         // enabled border style
         enabledBorder: OutlineInputBorder(
-            borderSide:
-                BorderSide(color: ColorManager.grey, width: AppSize.s1_5),
-            borderRadius: const BorderRadius.all(Radius.circular(AppSize.s8))),
+          borderSide: BorderSide(color: ColorManager.grey, width: AppSize.s1_5),
+          borderRadius: const BorderRadius.all(
+            Radius.circular(AppSize.s8),
+          ),
+        ),
 
         // focused border style
         focusedBorder: OutlineInputBorder(
-            borderSide:
-                BorderSide(color: ColorManager.primary, width: AppSize.s1_5),
-            borderRadius: const BorderRadius.all(Radius.circular(AppSize.s8))),
+          borderSide:
+              BorderSide(color: ColorManager.primary, width: AppSize.s1_5),
+          borderRadius: const BorderRadius.all(
+            Radius.circular(AppSize.s8),
+          ),
+        ),
 
         // error border style
         errorBorder: OutlineInputBorder(
