@@ -1,9 +1,8 @@
 import 'package:advanced_flutter_project/presentation/forgot_password/forgot_password_view.dart';
 import 'package:advanced_flutter_project/presentation/login/login_view.dart';
 import 'package:advanced_flutter_project/presentation/main/main_view.dart';
-import 'package:advanced_flutter_project/presentation/onboarding/onboarding_view.dart';
+import 'package:advanced_flutter_project/presentation/onboarding/view/onBoarding_view.dart';
 import 'package:advanced_flutter_project/presentation/register/register_view.dart';
-import 'package:advanced_flutter_project/presentation/resources/strings_manager.dart';
 import 'package:advanced_flutter_project/presentation/splash/splash_view.dart';
 import 'package:advanced_flutter_project/presentation/store_datails/store_details_view.dart';
 import 'package:flutter/material.dart';
