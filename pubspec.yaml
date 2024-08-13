@@ -41,6 +41,7 @@ dependencies:
   analyzer: ^6.4.1
   dio: ^5.5.0+1
   json_serializable: ^6.8.0
+  json_annotation: ^4.9.0
   get_it: ^7.7.0
   image_picker: ^1.1.2
   internet_connection_checker: ^1.0.0+1
